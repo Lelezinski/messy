@@ -94,14 +94,14 @@
             "photovoltaic" : {
                 "harvester_type" :"source",
                 "vref" :{
-                    "input_file":"input_files/gmonths.txt",
+                    "input_file":"input_files/office_windows.txt",
                     "lut":{
                         "input_values":[200,500,3000,5000],
                         "voltage_values":[0.15, 0.38, 2.36, 3.95]
                     }
                 },
                 "iref":{
-                    "input_file":"input_files/gmonths.txt",
+                    "input_file":"input_files/office_windows.txt",
                     "lut":{
                         "input_values":[200,500,3000,5000],
                         "current_values":[0.61, 0.62, 0.65, 0.67]
